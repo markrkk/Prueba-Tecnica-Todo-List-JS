@@ -1,33 +1,55 @@
-# Prueba-Tecnica-HTML-y-CSS
+# Todo List JS
 
-Este proyecto consiste en una aplicacion de lista de tareas desarollada unicamente con HTML y CSS.
-La aplicacion es estatica y simula la interfaz de una app real para gestionar tareas. 
+Aplicación de lista de tareas desarrollada con JavaScript Vanilla y manipulación del DOM.
 
-# Tecnologias utilizadas
+## Descripción
 
--HTML 
+Este proyecto permite gestionar tareas de forma dinámica.
 
--CSS
+El usuario puede:
 
-# Funcionalidad
+- añadir tareas
+- marcar tareas como completadas
+- eliminar tareas individuales
+- eliminar tareas completadas
+- eliminar todas las tareas
 
--Campo para añadir tareas
+La aplicación utiliza una estructura de datos en JavaScript como fuente de verdad y renderiza el contenido dinámicamente en el DOM.
 
--Lista de tareas con checkbox
+## Tecnologías utilizadas
 
--Botonoes para eliminar tareas
+- HTML
+- CSS
+- JavaScript Vanilla
 
-# Diseño responsive
-La aplicacion se adapta a diferentes tamaños de pantalla:
+## Funcionalidades
 
--Movil 
+- Añadir tareas con botón o tecla Enter
+- Checkbox para marcar tareas completadas
+- Cambio visual de tareas completadas
+- Eliminación individual de tareas
+- Eliminación de tareas completadas
+- Eliminación total de tareas
+- Renderizado dinámico del DOM
+- Diseño responsive
+- Organización separada de HTML, CSS y JavaScript
 
--Escritorio
+## Conceptos practicados
 
-Se ha utilizado flexboc y media querias para lograrlo. 
+- Manipulación del DOM
+- Eventos
+- addEventListener
+- createElement
+- appendChild
+- classList
+- Arrays y objetos
+- renderizado dinámico
+- Single Source of Truth
 
--No se ha utilizado javaScript
+## Objetivo del proyecto
 
--Los botones no tienen funcionalidad, solo representan la interfaz
+Practicar el desarrollo de aplicaciones dinámicas utilizando JavaScript Vanilla y manipulación del DOM sin utilizar frameworks o librerías externas.
 
--El proyecto se puede abrir directamente con el archivo index.html
+## Autor
+
+Marco Fuentes
