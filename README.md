@@ -49,7 +49,3 @@ La aplicación utiliza una estructura de datos en JavaScript como fuente de verd
 ## Objetivo del proyecto
 
 Practicar el desarrollo de aplicaciones dinámicas utilizando JavaScript Vanilla y manipulación del DOM sin utilizar frameworks o librerías externas.
-
-## Autor
-
-Marco Fuentes
