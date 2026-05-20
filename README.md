@@ -1,41 +1,58 @@
 # Todo List JS
 
-Aplicación de lista de tareas desarrollada con JavaScript Vanilla y manipulación del DOM.
+Aplicación dinámica de lista de tareas desarrollada con JavaScript Vanilla y manipulación del DOM.
 
 ## Descripción
 
-Este proyecto permite gestionar tareas de forma dinámica.
+Este proyecto transforma una interfaz estática de tareas en una aplicación funcional utilizando JavaScript.
 
-El usuario puede:
+La aplicación permite:
 
-- Añadir tareas.
-- Marcar tareas como completadas.
-- Eliminar tareas individuales.
-- Eliminar tareas completadas.
-- Eliminar todas las tareas.
+- añadir tareas
+- marcar tareas como completadas
+- eliminar tareas individuales
+- eliminar tareas completadas
+- eliminar todas las tareas
 
-La aplicación utiliza una estructura de datos en JavaScript como fuente de verdad y renderiza el contenido dinámicamente en el DOM.
+Toda la lógica se basa en manipulación del DOM y una estructura de datos en JavaScript que representa el estado de la aplicación.
 
-Además, las tareas se guardan en localStorage, por lo que se mantienen aunque se recargue la página.
 
 ## Tecnologías utilizadas
 
-- HTML
-- CSS
+- HTML5
+- CSS3
 - JavaScript Vanilla
 
 ## Funcionalidades
 
-- Añadir tareas con botón o tecla Enter.
-- Checkbox para marcar tareas completadas.
-- Cambio visual de tareas completadas.
-- Eliminación individual de tareas.
-- Eliminación de tareas completadas.
-- Eliminación total de tareas.
-- Renderizado dinámico del DOM.
-- Persistencia de datos con localStorage.
-- Diseño responsive.
-- Organización separada de HTML, CSS y JavaScript.
+--Añadir tareas
+
+El usuario puede añadir nuevas tareas:
+
+- pulsando el botón "Añadir"
+- presionando la tecla Enter
+
+--Marcar tareas como completadas
+
+Cada tarea incluye un checkbox.
+
+Cuando se marca:
+
+- el texto aparece tachado
+- cambia el color
+- cambia la opacidad
+
+--Eliminar tareas
+
+Cada tarea incluye un botón para eliminarla individualmente.
+
+--Eliminar tareas completadas
+
+El botón "Eliminar completadas" elimina únicamente las tareas marcadas.
+
+--Eliminar todas las tareas
+
+El botón "Eliminar todas" elimina completamente la lista.
 
 ## Conceptos practicados
 
@@ -51,7 +68,3 @@ Además, las tareas se guardan en localStorage, por lo que se mantienen aunque s
 - Single Source of Truth
 - Mobile First
 
-
-## Objetivo del proyecto
-
-Practicar el desarrollo de aplicaciones dinámicas utilizando JavaScript Vanilla y manipulación del DOM sin utilizar frameworks o librerías externas.
