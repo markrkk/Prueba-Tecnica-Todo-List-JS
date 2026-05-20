@@ -8,13 +8,15 @@ Este proyecto permite gestionar tareas de forma dinámica.
 
 El usuario puede:
 
-- añadir tareas
-- marcar tareas como completadas
-- eliminar tareas individuales
-- eliminar tareas completadas
-- eliminar todas las tareas
+- Añadir tareas.
+- Marcar tareas como completadas.
+- Eliminar tareas individuales.
+- Eliminar tareas completadas.
+- Eliminar todas las tareas.
 
 La aplicación utiliza una estructura de datos en JavaScript como fuente de verdad y renderiza el contenido dinámicamente en el DOM.
+
+Además, las tareas se guardan en localStorage, por lo que se mantienen aunque se recargue la página.
 
 ## Tecnologías utilizadas
 
@@ -24,27 +26,31 @@ La aplicación utiliza una estructura de datos en JavaScript como fuente de verd
 
 ## Funcionalidades
 
-- Añadir tareas con botón o tecla Enter
-- Checkbox para marcar tareas completadas
-- Cambio visual de tareas completadas
-- Eliminación individual de tareas
-- Eliminación de tareas completadas
-- Eliminación total de tareas
-- Renderizado dinámico del DOM
-- Diseño responsive
-- Organización separada de HTML, CSS y JavaScript
+- Añadir tareas con botón o tecla Enter.
+- Checkbox para marcar tareas completadas.
+- Cambio visual de tareas completadas.
+- Eliminación individual de tareas.
+- Eliminación de tareas completadas.
+- Eliminación total de tareas.
+- Renderizado dinámico del DOM.
+- Persistencia de datos con localStorage.
+- Diseño responsive.
+- Organización separada de HTML, CSS y JavaScript.
 
 ## Conceptos practicados
 
 - Manipulación del DOM
 - Eventos
 - addEventListener
+- querySelector / getElementById
 - createElement
 - appendChild
 - classList
 - Arrays y objetos
-- renderizado dinámico
+- Renderizado dinámico
 - Single Source of Truth
+- Mobile First
+
 
 ## Objetivo del proyecto
 
